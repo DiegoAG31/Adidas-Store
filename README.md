@@ -45,5 +45,8 @@ Para ver el proyecto en tu máquina local, sigue estos pasos: 1. **Clona el repo
 
 ## Autor
 
-- **Diego Ariza** - [DiegoAG31](https://github.com/DiegoAG31)
+- **Diego Ariza Gomez** - [DiegoAG31](https://github.com/DiegoAG31)
+- Clan Sierra
+- Diegoag3107@gmail.com
+- C.C: 1045747492
 
