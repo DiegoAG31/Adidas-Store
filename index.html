@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="Diego Ariza, tienda adidas, Riwi, DiegoAG31, prueba de desempeño, html, css">
+    <meta name="description" content="Tienda Adidas, tienda desarrollada para la prueba de desempeño del modulo de html y css">
+    <meta name="author" content="DiegoAG31">
+
+    <meta name="robots" content="index, follow"> <!-- Indica a los motores de búsqueda que indexen esta página -->
+    <meta name="googlebot" content="googlebot/2.1"> <!-- Información específica para Googlebot -->
+    <meta name="bingbot" content="bingbot/2.0"> <!-- Información específica para Bingbot -->
+    <meta name="referrer" content="no-referrer"> <!-- No enviar información de referencia -->
+    <meta name="X-XSS-Protection" content="1; mode=block"> <!-- Protección contra ataques XSS -->
+
+    <link rel="shortcut icon" href="./images/logoadidas.webp" type="image/x-icon"> <!-- Icono de la pestaña -->
+    <link rel="stylesheet" href="style.css"> <!-- Enlace a la hoja de estilos CSS -->
+    <title>Adidas Store</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./images/logoadidas.webp" alt="logo">
+            <h1>Adidas Store</h1>
+        </div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#quienes-somos">Quienes somos</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contactanos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <p>Inspirar al mundo a moverse, El deporte nos mantiene en forma. Nos mantiene centrados. Nos une. A través
+                del deporte, tenemos el poder de cambiar vidas, inspirándo con historias de atletas, innovando con
+                tecnología y impulsándote a ponerte en movimiento.</p>
+        </section>
+
+        <section id="quienes-somos">
+            <h2>Quienes Somos</h2>
+            <p>Adidas es una de las compañías deportivas más grandes y reconocidas del mundo, fundada en 1949 por Adolf
+                Dassler en Herzogenaurach, Alemania. Se enfoca en la innovación y el compromiso con el deporte, con la
+                misión de "Inspirar al mundo a moverse" y valores como la innovación, el compromiso, la integridad y la
+                responsabilidad. Con marcas como Adidas, Reebok y TaylorMade, ha logrado patrocinar a atletas
+                reconocidos, participar en eventos deportivos importantes y innovar en la producción de productos
+                deportivos, como zapatos con tecnología de impresión 3D y ropa deportiva con tecnología de enfriamiento.
+            </p>
+        </section>
+
+        <section id="productos">
+            <div class="producto">
+                <img src="./images/imagen1.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Samba</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen2.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Superstar</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen3.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Gazelle</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen4.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Adizero Boston</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen5.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Grand Court Alpha</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen6.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Campus 00s</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen7.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Handball Spezial</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen8.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis Forum Low CL</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen9.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Jabbar OG Royal Blue Low</h3>
+                <span>Originals</span>
+            </div>
+            <div class="producto">
+                <img src="./images/imagen10.webp" alt="producto">
+                <span class="precio">$599.99</span>
+                <h3>Tenis adidas VL Court Base</h3>
+                <span>Originals</span>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <form action="#" method="post">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Diego Ariza" required>
+                <br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="Ej: Diegoag3107@gmail.com" required>
+                <br>
+
+                <label for="numero">Telefono: </label>
+                <input type="number" id="numero" name="numero" placeholder="Ej: 300760####" required>
+                <br>
+
+                <label for="mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" rows="4"
+                    placeholder="Escriba su mensaje detallado que quiera enviar..."></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; DiegoAG31 2025. All rights reserved</p>
+    </footer>
+</body>
+
+</html>
